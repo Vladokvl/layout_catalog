@@ -45,11 +45,11 @@
     transition: color $transition-duration;
 
     &:hover {
-      color: #00acdc;
+      color: $color-primary;
     }
 
     &.is-active {
-      color: #00acdc;
+      color: $color-primary;
 
       &::after {
         content: '';
@@ -58,7 +58,7 @@
         left: 0;
         height: 4px;
         width: 100%;
-        background: #00acdc;
+        background: $color-primary;
         border-radius: 2px;
       }
     }
